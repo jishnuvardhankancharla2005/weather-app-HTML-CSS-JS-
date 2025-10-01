@@ -27,15 +27,6 @@ Modern web browser (Chrome, Firefox, Edge, etc.)
 
 Internet connection
 
-# Installation
-Clone this repository:
-
-git clone https://github.com/yourusername/weather-app.git
-Enter the project directory:
-
-cd weather-app
-Open index.html in your preferred web browser.
-
 # Usage
 Type a city name and hit enter or click the search icon to view weather data.
 
