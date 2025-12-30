@@ -2,7 +2,7 @@ const searchInput =document.querySelector(".search-input");
 const locationButton =document.querySelector(".location-button");
 const currentWeatherDiv=document.querySelector(".current-weather");
 const hourlyWeatherDiv=document.querySelector(".hourly-weather .weather-list");
-const API_key='003273961a9a48658ba15329252509'
+const API_key='Place_your_Api_key_here'
 const weatherCodes={
     clear:[1000],
     clouds:[1003,1006,1009],
@@ -84,5 +84,6 @@ locationButton.addEventListener("click",()=>{
         alert("Location access denied. Please enable permission to use this feature.")
     });
 });
+
 
 setupWeatherRequest("india");
